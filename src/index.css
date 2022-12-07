@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  padding: 1.2rem !important;
+  background: #1c1e21;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 300%;
+}
+
+.section {
+  padding: 2rem;
+  border-radius: 25px;
+  margin: 2rem;
+  min-height: 100vh;
+}
+.section-header {
+  font-size: 50px;
+  letter-spacing: -1px;
+  margin-bottom: 4rem;
+}
+
+.section > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav > h1 { color: white; font-size: 30px; }
+.nav > button { color: #5cb5d0; font-size: 22px}
+
+.data-chunks {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  border: 2px solid #285460;
+  border-radius: 20px;
+  padding: 1.4rem;
+  margin: 0.8rem;
+}
+
+.data-container > button {
+  font-size: 80px;
+}
+
+.data-container > p:nth-child(1) {
+  color: #5cb5d0;
+}
+
+.addr {
+  font-size: 20px;
+}
